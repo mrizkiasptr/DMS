@@ -1,4 +1,4 @@
-  @charset "UTF-8";
+@charset "UTF-8";
 /*!
  * CoreUI - Open Source Dashboard UI Kit
  * @version v2.1.12
@@ -13259,6 +13259,10 @@ canvas {
     left: 50px;
     display: inline;
   }
+    .tablelistgroup{
+      width: 100%;
+      padding: 1px 50px;}
+  }
   *[dir="rtl"] .sidebar-minimized .sidebar .nav {
     list-style-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");
   }
@@ -15386,7 +15390,17 @@ body {
 .text-white .text-muted {
   color: rgba(255, 255, 255, 0.6) !important;
 }
+.listgroups{
+  width: 100%;
+  padding: 1px 50px;
+}
 
+.addgroup{
+  margin: 5px 1000px 0px 0px;
+}
+.modalgrup{
+  width: 75%;
+}
 *[dir="rtl"] {
   direction: rtl;
   unicode-bidi: embed;

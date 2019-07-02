@@ -20,6 +20,7 @@ from Document_Management_System import views
 
 urlpatterns = [
     path('',views.login,),
+    path('postsign/',views.postsign),
     path('admin/', admin.site.urls),
 
 
