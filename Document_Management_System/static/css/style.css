@@ -1,4 +1,4 @@
-  @charset "UTF-8";
+@charset "UTF-8";
 /*!
  * CoreUI - Open Source Dashboard UI Kit
  * @version v2.1.12
@@ -11809,6 +11809,30 @@ a.text-dark:hover, a.text-dark:focus {
 .callout-dark h4 {
   color: #2f353a;
 }
+.bebas
+{
+  margin-top: 400px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  margin-left: 600px;
+}
+
+.audit
+{
+  margin-top: 10px;
+  margin-bottom: 400px;
+  margin-right: 600px;
+  margin-left: 10px;
+}
+
+.audit-header
+{
+  padding: 0.75rem 1.25rem;
+  box-shadow: 10px 10px 5px rgb(73, 73, 73);
+  margin-bottom: 0;
+  background-color: #f0f3f5;
+  border-bottom: 1px solid #c8ced3;
+}
 
 *[dir="rtl"] .callout {
   border-right: 4px solid #c8ced3;
@@ -15382,10 +15406,38 @@ body {
   font-size: 1.53125rem;
   font-weight: 600;
 }
+.listgroups{
+  width: 100%;
+  padding: 1px 50px;
+}
+
+.addgroup{
+  margin: 5px 1000px 0px 0px;
+}
+.modalgrup{
+  width: 75%;
+}
+.table1
+{
+  height: 550px;
+  width: 90%;
+}
+.tablelistgroup{
+  width: 100%;
+  padding: 1px 50px;}
+.modalrapih{
+  height: 500px;
+  width: 100%;
+}
+.savegroup{
+  height: 20px;
+  width: 150px;
+  margin: 0px 300px;
+}
+
 
 .text-white .text-muted {
   color: rgba(255, 255, 255, 0.6) !important;
-}
 
 *[dir="rtl"] {
   direction: rtl;
